@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00100000000000000000001 /* GoHomeYou'reDrunkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000001 /* GoHomeYou'reDrunkApp.swift */; };
+		B00100000000000000000002 /* BrewCaskInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000002 /* BrewCaskInfo.swift */; };
+		B00100000000000000000003 /* BrewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000003 /* BrewService.swift */; };
+		B00100000000000000000004 /* CaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000004 /* CaskListViewModel.swift */; };
+		B00100000000000000000005 /* CaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000005 /* CaskRowView.swift */; };
+		B00100000000000000000006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000006 /* ContentView.swift */; };
+		B00100000000000000000008 /* BrewStreamEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000009 /* BrewStreamEvent.swift */; };
+		B00100000000000000000009 /* BrewCaskCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000010 /* BrewCaskCommand.swift */; };
+		B00100000000000000000010 /* BrewLogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000011 /* BrewLogStore.swift */; };
+		B00100000000000000000011 /* BrewLogPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000012 /* BrewLogPanelView.swift */; };
+		B00100000000000000000012 /* CaskCommandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000013 /* CaskCommandsView.swift */; };
+		B00100000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000014 /* Assets.xcassets */; };
+		B00100000000000000000014 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000015 /* AppIcon.icns */; };
+		B00100000000000000000015 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = C37E2F112FC5150A00F4FBAA /* AppIcon.icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C37E2F112FC5150A00F4FBAA /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		F00100000000000000000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00100000000000000000015 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		E00100000000000000000001 /* Go Home You're Drunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Home You're Drunk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00100000000000000000001 /* GoHomeYou'reDrunkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoHomeYou'reDrunkApp.swift"; sourceTree = "<group>"; };
+		F00100000000000000000002 /* BrewCaskInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewCaskInfo.swift; sourceTree = "<group>"; };
+		F00100000000000000000003 /* BrewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewService.swift; sourceTree = "<group>"; };
+		F00100000000000000000004 /* CaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaskListViewModel.swift; sourceTree = "<group>"; };
+		F00100000000000000000005 /* CaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaskRowView.swift; sourceTree = "<group>"; };
+		F00100000000000000000006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F00100000000000000000008 /* GoHomeYoureDrunk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoHomeYoureDrunk.entitlements; sourceTree = "<group>"; };
+		F00100000000000000000009 /* BrewStreamEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewStreamEvent.swift; sourceTree = "<group>"; };
+		F00100000000000000000010 /* BrewCaskCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewCaskCommand.swift; sourceTree = "<group>"; };
+		F00100000000000000000011 /* BrewLogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewLogStore.swift; sourceTree = "<group>"; };
+		F00100000000000000000012 /* BrewLogPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewLogPanelView.swift; sourceTree = "<group>"; };
+		F00100000000000000000013 /* CaskCommandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaskCommandsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00100000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00100000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G00100000000000000000002 /* GoHomeYou'reDrunk */,
+				G00100000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00100000000000000000002 /* GoHomeYou'reDrunk */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000001 /* GoHomeYou'reDrunkApp.swift */,
+				G00100000000000000000004 /* Models */,
+				G00100000000000000000005 /* Services */,
+				G00100000000000000000006 /* ViewModels */,
+				G00100000000000000000007 /* Views */,
+				F00100000000000000000008 /* GoHomeYoureDrunk.entitlements */,
+				F00100000000000000000014 /* Assets.xcassets */,
+				F00100000000000000000015 /* AppIcon.icns */,
+				C37E2F112FC5150A00F4FBAA /* AppIcon.icon */,
+			);
+			path = "GoHomeYou'reDrunk";
+			sourceTree = "<group>";
+		};
+		G00100000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00100000000000000000001 /* Go Home You're Drunk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G00100000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000002 /* BrewCaskInfo.swift */,
+				F00100000000000000000009 /* BrewStreamEvent.swift */,
+				F00100000000000000000010 /* BrewCaskCommand.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G00100000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000003 /* BrewService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G00100000000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000004 /* CaskListViewModel.swift */,
+				F00100000000000000000011 /* BrewLogStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G00100000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000005 /* CaskRowView.swift */,
+				F00100000000000000000006 /* ContentView.swift */,
+				F00100000000000000000012 /* BrewLogPanelView.swift */,
+				F00100000000000000000013 /* CaskCommandsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T00100000000000000000001 /* GoHomeYou'reDrunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = L00100000000000000000002 /* Build configuration list for PBXNativeTarget "GoHomeYou'reDrunk" */;
+			buildPhases = (
+				C00100000000000000000002 /* Sources */,
+				C00100000000000000000001 /* Frameworks */,
+				C00100000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoHomeYou'reDrunk";
+			productName = "GoHomeYou'reDrunk";
+			productReference = E00100000000000000000001 /* Go Home You're Drunk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P00100000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T00100000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = L00100000000000000000001 /* Build configuration list for PBXProject "GoHomeYou'reDrunk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00100000000000000000001;
+			productRefGroup = G00100000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T00100000000000000000001 /* GoHomeYou'reDrunk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00100000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00100000000000000000013 /* Assets.xcassets in Resources */,
+				B00100000000000000000014 /* AppIcon.icns in Resources */,
+				B00100000000000000000015 /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00100000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00100000000000000000001 /* GoHomeYou'reDrunkApp.swift in Sources */,
+				B00100000000000000000002 /* BrewCaskInfo.swift in Sources */,
+				B00100000000000000000003 /* BrewService.swift in Sources */,
+				B00100000000000000000004 /* CaskListViewModel.swift in Sources */,
+				B00100000000000000000005 /* CaskRowView.swift in Sources */,
+				B00100000000000000000006 /* ContentView.swift in Sources */,
+				B00100000000000000000008 /* BrewStreamEvent.swift in Sources */,
+				B00100000000000000000009 /* BrewCaskCommand.swift in Sources */,
+				B00100000000000000000010 /* BrewLogStore.swift in Sources */,
+				B00100000000000000000011 /* BrewLogPanelView.swift in Sources */,
+				B00100000000000000000012 /* CaskCommandsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D00100000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00100000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D00100000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "GoHomeYou'reDrunk/GoHomeYoureDrunk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Home You're Drunk";
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gohomeyouredrunk.app;
+				PRODUCT_NAME = "Go Home You're Drunk";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D00100000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "GoHomeYou'reDrunk/GoHomeYoureDrunk.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Home You're Drunk";
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gohomeyouredrunk.app;
+				PRODUCT_NAME = "Go Home You're Drunk";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		L00100000000000000000001 /* Build configuration list for PBXProject "GoHomeYou'reDrunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00100000000000000000001 /* Debug */,
+				D00100000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		L00100000000000000000002 /* Build configuration list for PBXNativeTarget "GoHomeYou'reDrunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00100000000000000000003 /* Debug */,
+				D00100000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P00100000000000000000001 /* Project object */;
+}
