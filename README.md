@@ -4,6 +4,7 @@ A native macOS app for uninstalling applications installed with [Homebrew](https
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
 ![Swift 5](https://img.shields.io/badge/Swift-5-orange)
+<img width="2024" height="1448" alt="image" src="https://github.com/user-attachments/assets/f8d63165-9954-4d71-ac6d-c1c6d9116e6f" />
 
 ## Features
 
